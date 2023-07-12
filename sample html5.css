@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Calibri,sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header{
+    font-size: 35px;
+    text-align: center;
+    background:linear-gradient(180deg,blue,gray);
+    padding: 20px;
+}
+header h1{
+    color:#ffff;
+}
+nav{
+    background-color: gray;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: whitesmoke;
+
+}
+nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+section h1{
+    font-size: 70px;
+    color: gray;
+    margin: 10px;
+    padding: 10px 25px;
+
+}
+p{
+    font-size: 25px;
+    color: gray;
+    margin: 10px;
+}
+.button{
+    background-color: gray;
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    color: whitesmoke;
+}
+section .button:hover{
+    color: black;
+}
+.our-packages figure {
+            box-shadow: 0 0 10px black;
+           width: 200px;
+           height: 400px;
+           display: inline-block;
+           margin: 20px;
+           padding: 10px 25px;
+           background-color: lightgray;
+}
+.our-packages figure img{
+    width: 100%;
+}
+
+.our-gallery{
+    font-size: 50px;
+    color: gray;
+}
+.our-figure figure{
+    border: 2px solid black;
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    margin: 20px;
+    background-color:lightcyan;
+}
+.our-figure figure img{
+    width: 180px;
+    height: 120px;
+    margin: 5px;
+}
+section table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.contact-us{
+    box-shadow: 0 0 10px red;
+    border-radius: 2%;
+    margin: 10px;
+    background-color: linen;
+}
+section td img{
+    border-radius: 20%;
+    margin: 10px;
+}
+.footer{
+    background-color:grey;
+    margin: 10px;
+    padding: 30px 35px;
+}
