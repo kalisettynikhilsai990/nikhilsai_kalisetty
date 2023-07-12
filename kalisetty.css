@@ -1,8 +1,10 @@
+
 article{
     border: 2px solid black;
     width: 600px;
-    height: 560px;
+    height: 552px;
     margin: auto;
+    /* box-shadow: 10px 20px 30px black; */
 }
 header{
     background-color: rgb(238, 237, 237);
@@ -24,17 +26,21 @@ h2{
 button{
     background-color: rgb(31, 30, 30);
     color: white;
-    width: 600px;
+    width: 100%;
     font-size: 20px;
     border: none;
     padding: 9px;
-    
 }
+
 /* a:link{
     color:red;
 } */
 a:active{
-    color: blue;
+    color: #ff0000;
+}
+a:hover{
+    /* font-size: 20px; */
+    /* color: #ff0000; */
 }
 /* a{
     text-decoration: none;
@@ -48,9 +54,10 @@ button:hover{
     font-size: 20px;
     
 }
-span{
+h5{
     color:blue;
     font-size: 10px;
+    margin: 0%;
 }
 
 
