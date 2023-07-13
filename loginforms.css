@@ -1,0 +1,83 @@
+/* section{
+    border: ;
+} */
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+}
+.signup{
+    text-align: center;
+    margin: 20px;
+    color: rgb(63, 62, 62);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.signup a{
+    text-decoration: none;
+    padding: 10px;
+}
+.divclass{
+    width: 600px;
+    display: grid;
+    /* grid-template-columns: 1fr 20px 1fr; */
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+h4{
+    color: rgb(126, 126, 253);
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.808);
+    border-bottom: 1px solid rgb(190, 188, 188);
+    width: 430px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.checkbox{
+    margin-left: 70px;
+    font-size: 35px;
+}
+span{
+    font-size: 20px;
+    padding: 5px;
+    color: rgba(123, 68, 250, 0.966);
+}
+.forgotemail{
+    margin-left: 150px;
+    color: rgba(123, 68, 250, 0.966);
+}
+
+.buttonemail button{
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgb(73, 73, 252);
+    color: wheat;
+    margin-top: 90px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 30px;
+    text-transform: lowercase;
+}
+.sidebar{
+    content: "";
+    border-left: 2px solid black;
+    /* height: 500px; */
+    position: absolute;
+    right: 0;
+    height:200px;
+
+}
+.emailo{
+    position: relative;
+}
+
