@@ -8,14 +8,23 @@ article{
     /* background-color: aliceblue; */
     background-color: white;
 }
+article:hover{
+    background-color: #f1b4b4;
+}
 .border1{
     background-color: aliceblue;
     padding: 3px;
+}
+.border1:hover{
+    text-align: center;
 }
 .border2{
     background-color: antiquewhite;
     padding: 20px;
     margin:20px 0px 20px 0px;
+}
+h1:hover{
+    text-align: center;
 }
 header{
     background-color: rgb(199, 197, 197);
@@ -69,7 +78,7 @@ button:hover{
     background-color: white;
 }
 h5{
-    color:blue;
+    color:rgb(83, 83, 240);
     font-size: 10px;
     margin: 0%;
 }
@@ -81,7 +90,12 @@ h1{
     background-color: rgb(248, 199, 127);
     padding:10px 200px 10px 200px;
     margin-bottom: 30px;
-    
+}
+.border3:hover{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #f1b4b4;
 }
 .block-level{
     display: block;
@@ -93,26 +107,43 @@ h1{
 }
 .block-level p{
     background-color: rgb(104, 233, 233);
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin:10px 30px 10px 30px;
+    border-radius: 20px;
+}
+.block-level p:hover{
+    background-color: #fd5151;
+   text-align: center;
+   font-size: 25px;
 }
 .block{
     display: block;
     margin:10px 30px 10px 30px;
     background-color: burlywood;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
+    border-radius: 20px;
+}
+.block:hover{
+    background: linear-gradient(100deg,red,yellow,rgb(158, 158, 236),gold,green);
+    text-align: center;
+    font-size: 30px;
 }
 .inline-level p{
    display: inline;
-   margin: 12px;
+   margin: 10px;
    font-size: 20px;
    background-color: antiquewhite;
    padding: 20px;
    font-family: 'Times New Roman', Times, serif;
+   border-radius: 20px;
+}
+.inline-level p:hover{
+    background:linear-gradient(500deg, rgb(231, 77, 159) ,rgb(80, 78, 78),rgb(240, 167, 31));
+    font-size: 22px;
 }
 .inline-space{
     margin:40px ;
@@ -124,6 +155,11 @@ h1{
    background-color: wheat;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-decoration: none;
+   border-radius: 30px;
+}
+.inline:hover{
+    background-color: #f16d6d;
+    font-size: 20px;
 }
 .navigation-bar{
     padding: 50px;
@@ -136,6 +172,15 @@ h1{
     /* inline element it does not start on a new line */
     /* block level element, hight and width can be defined */
    margin: 15px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 10px  rgb(43, 43, 43);
+}
+.inline-block img:hover{
+    box-shadow: none;
+    transform: scale(1.1,1.1);
+}
+.inline-block:hover{
+    background: linear-gradient(1000deg,rgb(32, 32, 32),rgb(235, 11, 130),rgb(255, 17, 0),rgb(6, 175, 6),rgb(70, 25, 230));
 }
 .inline-block{
     background-color: darkkhaki;
