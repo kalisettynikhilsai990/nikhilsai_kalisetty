@@ -6,6 +6,16 @@ article{
     margin: auto;
     /* box-shadow: 10px 20px 30px black; */
     /* background-color: aliceblue; */
+    background-color: white;
+}
+.border1{
+    background-color: aliceblue;
+    padding: 3px;
+}
+.border2{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin:20px 0px 20px 0px;
 }
 header{
     background-color: rgb(199, 197, 197);
@@ -44,6 +54,7 @@ a:active{
 a:hover{
     /* font-size: 20px; */
     /* color: #ff0000; */
+    text-decoration: none;
 }
 /* a{
     text-decoration: none;
@@ -52,15 +63,80 @@ li{
     margin-left:-20px;
 }
 button:hover{
-    background: linear-gradient(30deg,black,white);
+    /* background: linear-gradient(30deg,black,white); */
     color: black;
     font-size: 20px;
-    
+    background-color: white;
 }
 h5{
     color:blue;
     font-size: 10px;
     margin: 0%;
 }
-
-
+h1{
+    background-color: rgb(173, 241, 219);
+    padding: 10px;
+}
+.border3{
+    background-color: rgb(248, 199, 127);
+    padding:10px 200px 10px 200px;
+    margin-bottom: 30px;
+    
+}
+.block-level{
+    display: block;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    /* block level element has it's occupys the 100% of content width*/
+    /* content are stacked vertically by default,one after another */
+   /* block level element has margin and padding both will apply 4 sides of content */
+}
+.block-level p{
+    background-color: rgb(104, 233, 233);
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px 30px 10px 30px;
+}
+.block{
+    display: block;
+    margin:10px 30px 10px 30px;
+    background-color: burlywood;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.inline-level p{
+   display: inline;
+   margin: 12px;
+   font-size: 20px;
+   background-color: antiquewhite;
+   padding: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.inline-space{
+    margin:40px ;
+    padding: 20px;
+}
+.inline{
+   margin: 60px;
+   padding: 20px 30px 20px 30px;
+   background-color: wheat;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+}
+.navigation-bar{
+    padding: 50px;
+    margin: 20px;
+    /* inline element has it's occupys the only content space */
+    /* marigin wiil apply only left and right of the content */
+    /* padding will apply 4 sides of the content */
+}
+.inline-block img{
+    /* inline element it does not start on a new line */
+    /* block level element, hight and width can be defined */
+   margin: 15px;
+}
+.inline-block{
+    background-color: darkkhaki;
+}
