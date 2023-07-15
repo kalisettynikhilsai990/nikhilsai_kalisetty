@@ -17,7 +17,13 @@ article:hover{
     padding: 3px;
     font-size: 30px;
     position: relative;
+    
 }
+/* .border1 h1{
+    background-image:url(img/london.jpg);
+    height: 500px;
+    position: sticky;
+} */
 .button-class{
     position: absolute;
     left: 1010px;
@@ -328,4 +334,12 @@ h1{
 }
 .inline-block{
     background-color: darkkhaki;
+}
+.background-stick{
+    /* border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 40px 10px 40px 10px; */
+    /* background-image: url(img/san-francisco.jpg); */
+    /* position: static; */
 }
