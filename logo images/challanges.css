@@ -1,0 +1,88 @@
+.border2{
+    border: 5px solid black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+button{
+    position: absolute;
+    top: -15px;
+    left: -30px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.sample img{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+header{
+    background-color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.sample a{
+    color: black;
+}
+.sample h2{
+    margin-bottom: 0px;
+}
+.sample h5{
+    margin-top: 0px;
+    text-transform: lowercase;
+}
+.borders1{
+    
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: black;
+}
+.borders2{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: blue;
+}
+.borders3{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: red;
+}
+.borders4{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+.borders5{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: rgb(61, 204, 61);
+}
+.borders6{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: rgb(68, 7, 7);
+    
+}
+.inline-block-border{
+    display:inline-flex;
+    margin-top: 20px;
+}
+ul li{
+    margin-left: -20px;
+}

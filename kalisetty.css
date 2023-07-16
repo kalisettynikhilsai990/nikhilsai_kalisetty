@@ -389,7 +389,8 @@ h1{
     background: none;
 }
 .carlz-digital{
-
+background-color: rgb(253, 249, 244);
+padding-bottom: 30px;
 }
 .images{
     /* border: 1px solid black; */
@@ -413,6 +414,7 @@ h1{
     height: 400px;
     background-color: #000000e0;
     margin-top: 50px;
+    position: relative;
 }
 .footer-section h1{
     background: none;
@@ -430,4 +432,61 @@ h1{
     font-size: 20px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.733);
+}
+.footer-section a:hover{
+    font-size: 25px;
+    color: aqua;
+}
+.image-fb1{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 50px;
+    top: 260px;
+    box-shadow: 0px 0px 10px 10px red;
+    margin-right: 10px;
+}
+.image-skype1{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 210px;
+    top: 260px;
+    box-shadow: 0px 0px 10px 10px orange;
+    margin-right: 10px;
+}
+.imgage-insta1{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 370px;
+    top: 260px;
+    box-shadow: 0px 0px 10px 10px gold;
+    margin-right: 10px;
+}
+.image-twitter1{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 530px;
+    top: 260px;
+    box-shadow: 0px 0px 10px 10px orangered;
+    margin-right: 10px;
+}
+.image-whatsaap1{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 690px;
+    top: 260px;
+    box-shadow: 0px 0px 10px 10px deeppink;
+    margin-right: 10px;
+}
+.nikhil{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 900px;
+    top: 340px;
+    text-shadow: 0px -20px 5px  white;
+    font-size: 20px;
 }

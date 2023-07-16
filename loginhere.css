@@ -1,3 +1,90 @@
+
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 0%;
+    left: 0%;
+    background-color: bisque;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    color:black;
+    padding: 0px 20px;
+}
+.logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.logo h1{
+    font-size: 40px;
+    margin-left: 40px;
+}
+nav li{
+    list-style: none;
+}
+.nav-links{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-links a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin:20px 50px ;
+}
+.image-f{
+    width: 90px;
+    height: 70px;
+    margin-right: 10px;
+}
+.nav-links a:hover{
+    color: aqua;
+    font-size: 25px;
+}
+.login-search{
+    position: relative;
+}
+.Email-text{
+  position: absolute;
+  right: 360px;
+  top: 38px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 5px orange;
+}
+.password-text{
+    position: absolute;
+    right: 70px;
+    top: 38px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 5px orange;
+}
+.button-class{
+    position: absolute;
+    right:-20px;
+    top: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(81, 81, 236);
+    box-shadow: 0px 0px 2px 2px blue;
+}
+.button-class a{
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+}
+.loginhere{
+    position: relative;
+    top: 130px;
+}
 .loginhere{
     /* border: 1px solid black; */
     width: 500px;
@@ -6,6 +93,7 @@
     background-color: rgb(250, 226, 194);
     border-radius: 20px;
     box-shadow: 0px 0px 20px 15px black;
+
 }
 .loginhere img{
     margin-bottom: -105px;
@@ -23,7 +111,7 @@ h1{
     padding: 15px;
     margin-bottom: 40px;
     border-radius: 30px;
-    box-shadow: 0px 0px 30px 20px orangered;
+    box-shadow: 0px 0px 10px 10px orangered;
 }
 .second-input{
     font-size: 20px;
@@ -32,7 +120,7 @@ h1{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 30px;
-    box-shadow: 0px 0px 20px 20px orangered;
+    box-shadow: 0px 0px 10px 10px orangered;
 }
 .checkbox-show{
     margin-left: 110px;
