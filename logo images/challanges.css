@@ -13,6 +13,7 @@ button{
     color: white;
     border: none;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 .sample img{
     width: 200px;
@@ -37,51 +38,39 @@ header{
     text-transform: lowercase;
 }
 .borders1{
-    
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: black;
 }
 .borders2{
-
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: blue;
 }
 .borders3{
-
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: red;
 }
 .borders4{
-
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: yellow;
 }
 .borders5{
-
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: rgb(61, 204, 61);
 }
 .borders6{
-
     width: 15px;
     height: 15px;
-    margin-right: 10px;
     background-color: rgb(68, 7, 7);
-    
 }
 .inline-block-border{
-    display:inline-flex;
     margin-top: 20px;
+    gap: 10px;
+    display: inline-flex;
 }
 ul li{
     margin-left: -20px;
