@@ -1,15 +1,20 @@
-
+body{
+    margin-bottom: 600px;
+}
 nav{
     position: fixed;
-    z-index: 10;
+    z-index: 2;
     top: 0%;
     left: 0%;
-    background-color: bisque;
+    background-color: rgb(36, 125, 241);
     width: 100%;
     height: 110px;
     display: flex;
     color:black;
     padding: 0px 20px;
+}
+.login-logo{
+    font-size: 50px;
 }
 .logo{
     width: 35%;
@@ -54,8 +59,8 @@ nav li{
   font-size: 20px;
   border: none;
   border-radius: 30px;
-  padding: 10px;
-  box-shadow: 0px 0px 5px 5px orange;
+  padding: 8px;
+  box-shadow: 0px 0px 5px 5px rgb(18, 4, 82);
 }
 .password-text{
     position: absolute;
@@ -64,8 +69,8 @@ nav li{
     font-size: 20px;
     border: none;
     border-radius: 30px;
-    padding: 10px;
-    box-shadow: 0px 0px 5px 5px orange;
+    padding: 8px;
+    box-shadow: 0px 0px 5px 5px rgb(20, 2, 82);
 }
 .button-class{
     position: absolute;
@@ -73,28 +78,24 @@ nav li{
     top: 50px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(81, 81, 236);
-    box-shadow: 0px 0px 2px 2px blue;
+    background-color: rgb(8, 8, 114);
+    box-shadow: 0px 0px 5px 5px rgb(233, 233, 240);
 }
 .button-class a{
     font-size: 20px;
     margin: 0px;
     color: white;
 }
-.loginhere{
-    position: relative;
-    top: 130px;
-}
-.loginhere{
-    /* border: 1px solid black; */
-    width: 500px;
-    height: 560px;
-    margin: auto;
-    background-color: rgb(250, 226, 194);
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 15px black;
 
+.loginhere{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(194, 207, 250);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 30px;
 }
+
 .loginhere img{
     margin-bottom: -105px;
 }
@@ -145,18 +146,211 @@ p a{
     text-decoration: none;
 }
 .image-fb{
-    width: 100px;
-    height: 90px;
+    width: 90px;
+    height: 80px;
     margin-left: 40px;
 }
 .imgage-insta{
-    width: 200px;
-    height: 100px;
+    width: 190px;
+    height: 80px;
     margin: 0px;
 }
 .image-twitter{
-    width: 110px;
-    height: 90px;
+    width: 100px;
+    height: 80px;
     margin-right: 20px;
 }
-
+.background-change{
+    background-color: aliceblue;
+    position: relative;
+    top: 100px;
+    display: inline-flex;
+    width: 100%;
+    gap: 120px;
+    margin-top: 20px;
+    height: 650px;
+    margin-bottom: 70px;
+}
+.facebook-position{
+    display: inline-block;
+}
+.facebook-position h1{
+    font-size: 70px;
+    color: blue;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .para1{
+    font-size: 30px;
+    margin-top: 0%;
+    margin-left: 68px;
+}
+.about-us{
+    font-size: 25px;
+}
+.button-create{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 107, 10);
+    color: white;
+    text-transform: lowercase;
+    font-weight: bold;
+    border: none;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.create-page{
+    text-transform: lowercase;
+    font-size: 15px;
+    margin-left: 150px;
+    text-decoration: none;
+    padding: 5px;
+}
+.para2{
+    font-size: 15px;
+    
+}
+.facebook-para{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.facebook-user{
+    margin-top: 30px;
+}
+.border-bottom-fb{
+    border-bottom: 2px solid gray;
+    margin-left: 40px;
+}
+.article{
+    top: 30px;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 80px;
+    margin-bottom: 0%s;
+}
+.fb-facebook{
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+}
+.fb-article{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.fb-article:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fb-talk{
+    text-decoration: none;
+    padding: 10px;
+}
+.fb-talk:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.border1px{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.article-para{
+    top: 30px;
+    position: relative;
+    display: flex;
+}
+.para-fb{
+    text-align: left;
+    margin-left: 20px;
+}
+.border-side{
+    border: 1px solid black;
+    width: 350px;
+    height: 800px;
+    margin-top: 130px;
+    margin-left: 20px;
+    position: relative;
+}
+.h3-fb{
+    position: absolute;
+    top: -45px;
+    left: 110px;
+}
+.image-fb-logo{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.border-side h1{
+    font-size: 40px;
+    margin-top: 0%;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0%;
+}
+.para-screenshot{
+    background-color: rgb(196, 192, 192);
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-align: center;
+    position: relative;
+}
+.para-screenshot span {
+    position: absolute;
+    right: 10px;
+}
+.h4-fb{
+    margin: 20px;
+    margin-bottom: 0%;
+}
+.h4-fb a{
+    margin-left: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.h4-avil{
+    margin-top: 0%;
+    margin-left: 20px;
+    margin-bottom: 0%;
+}
+.h4-avil span{
+    margin-left: 30px;
+}
+.h4-list{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.h4-list span{
+    margin-left: 120px;
+}
+.h4-list a{
+    text-decoration: none;
+    color: blue;
+}
+.h4-fou{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 20px;
+}
+.text-para{
+    font-size: 15px;
+    margin-top: 0%;
+    margin-left: 100px;
+}
+.h4-fou a{
+    margin-left: 30px;
+}
+.img-place1-nat{
+ margin-left: 30px;
+}
+.bborder-bottom-line{
+    border-bottom: 1px solid gray;
+    margin: 20px;
+    padding: 20px;
+    text-align: right;
+}
