@@ -1,0 +1,192 @@
+.main-header{
+    width: 100%;
+    height: 80px;
+    background-color: blanchedalmond;
+}
+.clearfix::after{
+    clear: both;
+    /* content: "";
+    display: block; */
+} 
+.h1{
+    float: left;
+    margin-left: 20px;
+}
+.navigation{
+    float: right;
+    margin-top: 25px;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation a:hover{
+    color: blue;
+    font-weight: bold;
+}
+#parent-head{
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.child1{
+    width: 900px;
+    height: 520px;
+    background-color: blue;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.child2{
+    width: 350px;
+    height: 520px;
+    background-color:whitesmoke;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.footer{
+    width: 97%;
+    height: 70px;
+    margin-left: 20px;
+    background-color:black;
+    clear: both;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 20px;
+    margin-right: 30px;
+}
+.child1-h1{
+    font-size: 50px;
+    display: inline;
+}
+.child1-p{
+    font-size: 20px;
+    margin: 20px;
+}
+.child1-img{
+    width: 40%;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+.login{
+    margin-left: 200px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email{
+    margin-left: 165px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.email:focus{
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.password{
+    margin-left: 165px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.password:focus{
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(34, 33, 33);
+    color: whitesmoke;
+    font-weight: bold;
+}
+.submit:active{
+    color: blue;
+}
+.sidebar-logo{
+    padding: 20px 0px 20px 20px;
+}
+.child2-h1{
+    float: right;
+    margin-top: 25px;
+    margin-right: 140px;
+    color: black;
+}
+.border1{
+    border: 1px solid gray;
+    width: 300px;
+    margin-left: 25px;
+}
+.navigation-2 a{
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 20px 20px 20px 40px;
+    padding: 5px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navigation-2 a:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.margin-left{
+ margin: 0px 20px 0px 0px;
+}
+.border2{
+    border: 1px solid gray;
+    width: 300px;
+    margin-left: 25px;
+}
+.laura-jones{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 5px;
+    float: right;
+}
+.laura{
+    float: left;
+    margin-left: 120px;
+    text-transform: lowercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+.copyright{
+    color: whitesmoke;
+    float: left;
+    margin-left: 400px;
+}
+.food-menu{
+    float: left;
+}
+.image{
+    width: 250px;
+    height: 220px;
+    margin-left: 11px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
