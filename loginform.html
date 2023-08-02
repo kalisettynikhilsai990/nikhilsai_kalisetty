@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        .background{
+            width: 800px;
+            height: 590px;
+            background: linear-gradient(90deg ,rgb(120, 120, 231),rgb(235, 86, 185));
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 5px rgb(233, 175, 213);
+            position: relative;
+        }
+        .form{
+            width: 400px;
+            height: 550px;
+            background-color: rgb(251, 252, 253);
+            position: absolute;
+            top: 4%;
+            left: 25%;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .label{
+            font-size: 18px;
+            text-transform: lowercase;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 50px;
+        }
+        .svg{
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        .input{
+            font-size: 15px;
+            padding: 10px 10px 5px 10px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: rgb(251, 252, 253);
+            margin-bottom: 8px;
+            border-block-color: red;
+        }
+        .forgot{
+            margin-left: 170px;
+            border: none;
+            cursor: pointer;
+            background: none;
+        }
+        .submit{
+            width: 250px;
+            padding: 5px;
+            margin-left: 55px;
+            margin-top: 30px;
+            color: white;
+            font-weight: bold;
+            background:linear-gradient(90deg ,rgb(35, 35, 211),rgb(224, 19, 156));
+            border: none;
+            font-size: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px 5px aquamarine;
+        }
+        p{
+            margin-left: 100px;
+            margin-top: 30px;
+            text-transform: lowercase;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .images{
+            width: 40px;
+            height: 40px;
+            margin: 7px;
+        }
+        .margin-images{
+            margin-left: 100px;
+        }
+        .p{
+            margin-left: 10px;
+        }
+        .button2{
+            border: none;
+            background: none;
+            font-size: 20px;
+            margin-left: 47px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="background" >
+        <form>
+            <div class="form">
+                <h1>Login</h1>
+                <label class="label"  for="Username">Username</label><br>
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
+                <input class="input" type="text" placeholder="Type Your Name"><br>
+                <label class="label"  for="password">Password</label><br>
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+                <input class="input" type="text" placeholder="Type Your Password"><br>
+                <button class="forgot" for="forgot-password">Forgot Password?</button><br>
+                <input class="submit" type="submit" value="Login">
+                <p>Or Sign Up Using</p>  
+                <div class="margin-images">  
+                <img class="images"  src="./logo images/fb logo.png" alt="fb">
+                <img class="images" src="./logo images/twitter logo.png" alt="twitter">
+                <img src="./logo images/google_PNG19639.png" alt="google" class="images">
+                <p class="p" >Or Sign Up Using</p>
+                <button class="button2" for="singup">SIGNUP</button>
+            </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
