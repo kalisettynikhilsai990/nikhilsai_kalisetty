@@ -1,4 +1,4 @@
-console.log("say hello")
+4\44console.log("say hello")
 
 //their are the three keywords to declare variables in our java script
 //they are:- 1.var

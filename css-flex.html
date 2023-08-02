@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css flex</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            height: 1250px;
+        }
+        .container{
+            font-family: sans-serif;
+            font-size: 10px;
+            background-color: rgb(184, 180, 180);
+            display: flex;
+            justify-content:space-around;
+            height: 100px;
+            align-items: center;
+            /* align-items: flex-start; */
+            /* gap: 30px; */
+        }
+        /* .flex-1{
+            order: 1;
+        }
+        .flex-5{
+            order: -1;
+        }
+        .flex-2{
+            align-self: flex-end;
+        }
+        .flex-3{
+            flex-grow: 2;
+        }
+        .flex-4{
+            flex-shrink: 1;
+        }
+        .flex-6{
+            flex-basis: 300px;
+        } */
+        .flex1{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex2{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex3{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex4{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex5{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex6{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex7{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .flex8{
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .item-name{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .parent{
+            display: flex;
+        }
+        .child-1{
+            border: 1px solid gray;
+            margin: 10px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .best-seller{
+            position: absolute;
+            top: 3%;
+            right: 10%;
+            font-weight: bold;
+            background-color: aquamarine;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .up-to{
+            position: absolute;
+            top: 13%;
+            right: 10%;
+            color: red;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        .button{
+            position: absolute;
+            top: 56%;
+            right: 7%;
+            padding: 2%;
+            border-radius: 5px;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0px 0px 3px 3px aqua;
+            cursor: pointer;
+        }
+        .rating{
+            position: absolute;
+            top: 63%;
+            left: 6%;
+            font-size: 18px;
+            color: chocolate;
+            font-weight: bold;
+        }
+        .parent img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0%;
+        }
+        .parent p{
+            font-size: 15px;
+            margin: 0px 10px 10px 10px;
+        }
+        .parent h1{
+        margin: 0px 20px 20px 20px;
+        }
+        .flex-head{
+            text-align: center;
+            padding: 38px;
+        }
+        .footer{
+            width: 100%;
+            height: 200px;
+            background-color:black;
+            position: relative;
+        }
+        .footer-1 img{
+           width: 30px;
+           height: 30px;
+           float: right;
+           margin: 20px;
+           margin-right: 30px;
+        }
+        .list-color{
+            color: white;
+            float: left;
+            margin: 25px;
+            letter-spacing: 2px;
+            padding: 20px;
+        }
+        .list-color li{
+            list-style: none;
+        }
+        .copyright{
+           color: whitesmoke;
+           float: left;
+           margin-left:200px;
+           margin-top: 20px;
+        }
+        .map{
+            width: 80%;
+            height: 125px;
+            position: absolute;
+            bottom: 5%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="flex-head">By using HTML and css-FLEX , POSITIONS</h1>
+    <div class="container">
+        <div class="flex1 flex-1">
+            <h1>ITEM NO:-1</h1>
+            <h2 class="item-name">Chinese</h2>
+        </div>
+        <div class="flex2 flex-2">
+            <h1>ITEM NO:-2</h1>
+            <h2 class="item-name">South_Indian</h2>
+        </div>
+        <div class="flex3 flex-3">
+            <h1>ITEM NO:-3</h1>
+            <h2 class="item-name">Dosa</h2>
+        </div>
+        <div class="flex4 flex-4">
+            <h1>ITEM NO:-4</h1>
+            <h2 class="item-name">North_Indian</h2>
+        </div>
+        <div class="flex5 flex-5">
+            <h1>ITEM NO:-5</h1>
+            <h2 class="item-name">Burger</h2>
+        </div>
+        <div class="flex6 flex-6">
+            <h1>ITEM NO:-6</h1>
+            <h2 class="item-name">Ice_Creams</h2>
+        </div>
+        <div class="flex7 flex-7">
+            <h1>ITEM NO:-7</h1>
+            <h2 class="item-name">Idli</h2>
+        </div>
+        <div class="flex8 flex-8">
+            <h1>ITEM NO:-8</h1>
+            <h2 class="item-name">Kebabs</h2>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="child-1">
+            <h1>Item-1</h1>
+            <img src="./airnbn images/Chinese.webp" alt="Chinese">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse tempora temporibus mollitia rerum expedita, magnam sequi id, ea aut voluptas enim reprehenderit nemo, in dolor cupiditate? Velit odit nesciunt tempore.</p>
+            <h3 class="best-seller">Best seller</h3>
+            <h4 class="up-to" >50% UP TO ₹100</h4>
+            <button class="button">ADD TO CART</button>
+            <h5 class="rating">votes 355 4.5rating</h5>
+        </div>
+        <div class="child-1">
+            <h1>Item-2</h1>
+            <img src="./airnbn images/South_Indian_4.webp" alt="South_Indian_4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque veritatis eius rem quibusdam molestias dolores impedit quae consequuntur harum, officiis officia vitae similique, repellendus voluptatum? Maiores quibusdam expedita labore aperiam!</p>
+            <h4 class="up-to">30% OFF ABOVE ₹200</h4>
+            <button class="button">ADD TO CART</button>
+            <h5 class="rating">votes 265 3.7rating</h5>
+        </div>
+        <div class="child-1">
+            <h1>Item-3</h1>
+            <img src="./airnbn images/Dosa.webp" alt="dosa">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestias officia alias autem consequuntur sint nulla veniam, iste quia odio! Voluptatibus veritatis atque ea expedita excepturi ex asperiores magnam facere.</p>
+            <h3 class="best-seller">SPECIAL DOSA</h3>
+            <h4 class="up-to">₹200/-</h4>
+            <button class="button">ADD TO CART</button>
+            <h5 class="rating">votes 295 3.8rating</h5>
+        </div>
+        <div class="child-1">
+            <h1>Item-4</h1>
+            <img src="./airnbn images/North_Indian_4.webp" alt="North_Indian_4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad facere culpa. Esse dolorem dolores ab cum laboriosam perspiciatis corporis et adipisci, atque excepturi harum sit aspernatur cupiditate eius consequatur!</p>
+            <h3 class="best-seller">DIET FOOD</h3>
+            <h4 class="up-to">₹150/-</h4>
+            <button class="button">ADD TO CART</button>
+            <h5 class="rating">votes 285 4.0rating</h5>
+        </div>
+        </div>
+        <div class="parent">
+            <div class="child-1">
+                <h1>Item-5</h1>
+                <img src="./airnbn images/Burger.webp" alt="Burger">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse tempora temporibus mollitia rerum expedita, magnam sequi id, ea aut voluptas enim reprehenderit nemo, in dolor cupiditate? Velit odit nesciunt tempore.</p>
+                <h3 class="best-seller">MOST LIKE</h3>
+                <h4 class="up-to">₹250/-</h4>
+                <button class="button">ADD TO CART</button>
+                <h5 class="rating">votes 305 3.8rating</h5>
+            </div>
+            <div class="child-1">
+                <h1>Item-6</h1>
+                <img src="./airnbn images/Ice_Creams.webp" alt="Ice_Creams">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque veritatis eius rem quibusdam molestias dolores impedit quae consequuntur harum, officiis officia vitae similique, repellendus voluptatum? Maiores quibusdam expedita labore aperiam!</p>
+                <h3 class="best-seller">MUST TRY</h3>
+                <h4 class="up-to">₹180/-</h4>
+                <button class="button">ADD TO CART</button>
+                <h5 class="rating">votes 405 4.1rating</h5>
+            </div>
+            <div class="child-1">
+                <h1>Item-7</h1>
+                <img src="./airnbn images/Idli.webp" alt="idli">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestias officia alias autem consequuntur sint nulla veniam, iste quia odio! Voluptatibus veritatis atque ea expedita excepturi ex asperiores magnam facere.</p>
+                <h4 class="up-to">₹80/-</h4>
+                <button class="button">ADD TO CART</button>
+                <h5 class="rating">votes 205 3.8rating</h5>
+            </div>
+            <div class="child-1">
+                <h1>Item-8</h1>
+                <img src="./airnbn images/Kebabs.webp" alt="Kebabs">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad facere culpa. Esse dolorem dolores ab cum laboriosam perspiciatis corporis et adipisci, atque excepturi harum sit aspernatur cupiditate eius consequatur!</p>
+                <h3 class="best-seller">SPECIAL ITEM</h3>
+                <h4 class="up-to">30% OFF ABOVE ₹400</h4>
+                <button class="button">ADD TO CART</button>
+                <h5 class="rating">votes 455 4.5rating</h5>
+            </div>
+        </div>
+        <div class="footer" >
+            <footer>
+            <div class="footer-1">     
+            <img src="./img/icon-facebook_tfqsuc.webp" alt="facebbok">
+            <img src="./img/icon-instagram_b7nubh.webp" alt="instagram">
+            <img src="./img/icon-pinterest_kmz2wd.webp" alt="pinterest">
+            <img src="./img/icon-twitter_gtq8dv.webp" alt="twitter">
+        </div>
+            <ul class="list-color" >
+                <h3>CONTACT</h3>
+                <li>Help & Support</li>
+                <li>Partner with us</li>
+                <li>Ride with us</li>
+                <li>About Us</li>
+                <li>Items List</li>
+                <li>Oder Here</li>
+            </ul>
+            <img class="map" src="./airnbn images/map 2.png" alt="map">
+            <h3 class="copyright" >Copyright @ 2023</h3> 
+            </footer>
+          </div>
+</body>
+</html>

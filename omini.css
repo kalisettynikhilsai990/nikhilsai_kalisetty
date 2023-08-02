@@ -10,7 +10,7 @@ body{
     padding: 0%;
 }
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -18,29 +18,30 @@ header {
     background-attachment: fixed;
 }
 
-header h1 {
-    margin: 0;
+.hero-text-box-1{
     color: #fff;
-    font-size: 240%;
-text-transform: uppercase;
-text-decoration: solid;
-    font-weight: 300;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 1000;
     letter-spacing: 1px;
-    word-spacing: 4px
-    
+    word-spacing: 4px;
+    position: absolute;
+    top: 48%;
+    left: 15%;
 }
 .hero_text_box{
-    text-align: unset;
     margin: 10px;
     padding-left: 0%;
 }
 
 .logo {
-    height: 100px;
-    width: auto;
+    height: 150px;
+    width: 180px;
     float: left;
     padding-left: 20px;
     margin-top: 2px;
+    position: absolute;
+    top: 45%;
 }
 
 .main_nav {
@@ -95,6 +96,7 @@ text-decoration: solid;
     color: black;
     font-size: 18px;
     padding: 1px;
+    margin-bottom: 40px;
 }
 .hea{
     color: soild gray ;
@@ -119,6 +121,10 @@ padding: 0%;
     margin: 0%;
     width: 100%;
     background-color: #ff00;
+}
+.inline img{
+    border-radius: 20px;
+    margin: 3px;
 }
 .melashow{
     list-style: none;
@@ -189,16 +195,22 @@ margin: 0px;
     color: darkgreen;
 }
 .cityimg{
-    width: 320px;
+    width: 300px;
     height: 210px;
+    margin-left: 20px;
 }
 .city{
     display: inline-block;
-
+}
+.city ul li{
+    margin-left: 30px;
+}
+.city h3{
+    margin-left: 30px;
 }
 .city:hover img{
-    transform: scale(1.2,1.2);
-    border-radius: 10%;
+    transform: scale(1.1,1.1);
+    border-radius: 10px;
 }
 
 .borderimg{
@@ -278,6 +290,23 @@ margin: 0px;
     background-image:url(img/image500px.jpg) ;
     background-repeat: no-repeat;
     background-position: right;
+    position: relative;
+}
+.login-h2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+}
+.login-h4{
+    font-size: 20px;
+}
+.search-name{
+    font-size: 25px;
+}
+.abouslute{
+    position: absolute;
+    left: 20%;
 }
 .sizehea{
     font-size: 50px;
@@ -293,7 +322,8 @@ margin: 0px;
 }
 .singup{
     background-color:lightgray;
-    font-size: 30px;
+    font-size: 14px;
+    padding: 6px;
 }
 .singup:hover{
 color:#ff0000;
