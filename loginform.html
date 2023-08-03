@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login form</title>
     <style>
+        body{
+            margin-bottom: 1000px;
+        }
         .background{
             width: 800px;
             height: 590px;
@@ -13,6 +16,7 @@
             border-radius: 10px;
             box-shadow: 0px 0px 10px 5px rgb(233, 175, 213);
             position: relative;
+            margin-bottom: 100px;
         }
         .form{
             width: 400px;
@@ -90,6 +94,98 @@
             margin-left: 47px;
             cursor: pointer;
         }
+        .main-head{
+            width: 1000px;
+            height: 500px;
+            margin: auto;
+            background-color: rgb(60, 60, 160);
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+        .child-1{
+            position: relative;
+        }
+        strong{
+            font-size: 35px;
+        }
+        .h2-head{
+            color: white;
+        }
+        .h3-head{
+            color: white;
+        }
+        .background-image{
+             width: 370px;
+             height: 70px;
+             background-color: white;
+             display: flex;
+             align-items: center;
+             justify-content:space-around;
+             position: absolute;
+             bottom: -100%;
+        }
+        b{
+            color: rgb(92, 69, 221);
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        h4{
+            color: rgb(134, 127, 245);
+            word-spacing: 5px;
+        }
+        .login-background{
+            width: 400px;
+            height: 470px;
+            background-color: white;
+            margin-top: 50px;
+        }
+        .h1-login{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 20px;
+            margin: 0px;
+        }
+        .input-2{
+            padding: 15px;
+            width: 300px;
+            margin: 20px 20px 0px 30px;
+            font-size: 20px;
+        }
+        .submit-login{
+            padding: 15px;
+            width: 332px;
+            margin: 20px 20px 0px 30px;
+            font-size: 20px;
+            border: none;
+        }
+        .lost-your{
+            text-decoration: none;
+            color: rgb(134, 127, 245);
+            font-size: 18px;
+            margin: 30px;
+        }
+        .or{
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            margin:10px 0px 0px 0px;
+        }
+        .background-blue{
+            width: 332px;
+            height: 60px;
+            background-color: rgb(60, 60, 160);
+            margin: 10px 30px 0px 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .white{
+            color: white;
+        }
+        .white b{
+            color: white;
+            text-transform: lowercase;
+        }
     </style>
 </head>
 <body>
@@ -116,6 +212,37 @@
             </div>
         </form>
     </div>
-    
+    <div class="main-head">
+    <div class="child-1">
+    <h2 class="h2-head" ><strong>FACEBOOK</strong> INTERT SITE <br> LOGIN API</h2>
+    <h3 class="h3-head">HOW TO GET APP ID & APP SECRET CODE?</h3>
+    <div class="background-image">
+        <div class="child-div-1">
+            <img src="./logo images/fb logo.png" alt="fbicon" width="55px" height="50px">
+           </div>
+           <div class="child-div-2">
+            <h4><b>Login</b> With <b>Facebook</b></h4>
+           </div>
+    </div>
+    </div>
+    <div class="child-2">
+     <div class="login-background">
+     <h1 class="h1-login" >Login</h1>
+     <input class="input-2" type="text" placeholder="Username"><br>
+     <input class="input-2" type="text" placeholder="Password"><br>
+     <input class="submit-login"  type="submit" value="Login">
+     <a class="lost-your" href="">Lost Your Password?</a>
+     <h4 class="or">Or</h4>
+     <div class="background-blue">
+      <div>
+       <img src="./airnbn images/icon-facebook_tfqsuc.webp" alt="fb-icon" width="50px" height="50px">
+      </div>
+      <div>
+        <h4 class="white" ><b>Login</b> With <b>Facebook</b></h4>
+      </div>
+     </div>
+     </div>
+    </div>
+    </div>
 </body>
 </html>
