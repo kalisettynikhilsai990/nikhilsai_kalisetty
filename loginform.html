@@ -102,6 +102,7 @@
             display: flex;
             justify-content:space-around;
             align-items: center;
+            margin-bottom: 100px;
         }
         .child-1{
             position: relative;
@@ -186,6 +187,118 @@
             color: white;
             text-transform: lowercase;
         }
+        .header-fb{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(12, 12, 190);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-div-fb{
+            background-color: rgb(230, 239, 248);
+            width: 100%;
+            height: 100vh;
+        }
+        .input-type{
+            font-size: 20px;
+            border: none;
+            margin: 0px 20px 0px 0px;
+        }
+        .input-type{
+            width: 180px;
+        }
+        .facebook-head{
+            font-size: 50px;
+            color: white;
+            margin-right: 500px;
+        }
+        .submit-login-2{
+            margin-right: 15px;
+            border: none;
+            padding: 4px 10px 4px 10px;
+            border-radius: 2px;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(17, 17, 136);
+            cursor: pointer;
+            box-shadow: 0px 0px 8px 5px blue;
+        }
+        .color-change{
+            color: rgba(216, 208, 208, 0.87);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .color-black{
+            color: black;
+        }
+        .another-div{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+        }
+        .border-bottom-signup{
+            border-bottom: 2px solid gray;
+            width: 600px;
+            margin-bottom: 0%;
+        }
+        .h1-singup{
+            text-align: left;
+            font-size: 40px;
+            margin: 0%;
+        }
+        .paragraph-1{
+            text-align: left;
+            margin:10px 0px 0px 0px;
+        }
+        .firstname-lastname{
+            font-size: 20px;
+            width: 170px;
+            margin: 10px 5px 0px 0px;
+            padding: 5px;
+        }
+        .email-password-new{
+            font-size: 20px;
+            width: 362px;
+            margin: 10px 0px 0px 0px;
+            padding: 5px;
+        }
+        .birthday{
+            margin: 10px 0px 0px 0px;
+        }
+        .input-date{
+            display: flex;
+            gap: 10px;
+            margin: -10px 0px 10px 0px;
+        }
+        .text-none{
+            text-decoration: none;
+            font-weight: bold;
+            color: blue;
+        }
+        .paragraph-2{
+            margin: 5px 0px 0px 0px;
+        }
+        .signup-button{
+            width: 200px;
+            padding: 5px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(40, 40, 168);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px 0px 5px 0px;
+        }
+        .paragraph-3{
+            margin: 5px 0px 0px 0px;
+        }
+        .h1-head-facebook{
+            font-size: 40px;
+            text-align: left;
+            margin-left: 40px;
+        }
     </style>
 </head>
 <body>
@@ -244,5 +357,58 @@
      </div>
     </div>
     </div>
+       <div class="main-div-fb">
+    <header class="header-fb">
+         <h1 class="facebook-head">facebook</h1>
+        <div class="login-fb">
+         <label class="color-change" for="Email">Email or phone</label><br>
+         <input class="input-type" type="text"><br>
+         <input type="checkbox"><span class="color-change">keep me logged in</span>
+        </div>
+        <div class="inline-fb">
+            <label class="color-change" for="Email">Password</label><br>
+            <input class="input-type" type="text"><br>
+            <span class="color-change">Forgot your password?</span>
+           </div>
+           <div class="signin">
+            <input class="submit-login-2" type="submit" value="Log in">
+           </div>
+    </header>
+<div class="another-div">
+    <div class="fb-para">
+        <h1 class="h1-head-facebook" >connect with friends and the <br>
+        world around you on Fcebook</h1>
+        <p><b class="color-black" >See photos and updates</b> From friends in news Feed</p>
+        <p><b class="color-black">Share what's New</b> in your life on your timeline</p>
+        <p><b class="color-black">Find more</b> of what you're looking for with graph search</p>
+    </div>
+    <div class="login-form-here">
+        <form class="form-login" action="login">
+            <h1 class="h1-singup" >Sign up</h1>
+            <p class="paragraph-1" >it's free and always will be</p>
+            <input class="firstname-lastname" type="text" placeholder="First name">
+            <input class="firstname-lastname" type="text" placeholder="Last name"><br>
+            <input class="email-password-new" type="text" placeholder="Email or mobile number"><br>
+            <input class="email-password-new" type="text" placeholder="Re-enter email or mobile number"><br>
+            <input class="email-password-new" type="text" placeholder="New password"><br>
+            <h2 class="birthday" >Birthday</h2><br>
+            <div class="input-date">
+            <input type="date"><span><a class="text-none" href="">Why do i need to provide <br> my birthday?</a>
+            </span><br>
+            </div>
+            <input type="radio"><span>Female</span>
+            <input type="radio"><span>Male</span><br>
+            <p class="paragraph-2" >By clicking sign up,you agree to our <a class="text-none" href="">Terms</a> and that <br>
+            you have read our <a class="text-none" href="">Data use policy,</a> including our <br>
+            <a class="text-none" href="">Coockie use.</a></p>
+            <input class="signup-button" type="submit" value="Sign Up" >
+            <div class="border-bottom-signup">
+            </div>
+            <p class="paragraph-3"> <a class="text-none" href="">Create a page</a> For a celebrilty, brand or business</p>
+        </form>
+    </div>
+</div>
+
+</div>
 </body>
 </html>
