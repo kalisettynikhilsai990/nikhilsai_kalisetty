@@ -198,12 +198,18 @@ footer img{
 
 
 
+
+
+.border-top{
+    border-top: 5px solid rgb(30, 131, 131);
+}
 .container{
     display: flex;
     align-items: center;
     justify-content:space-between;
     background-color: rgb(248, 242, 242);
-    border-top: 5px solid rgb(30, 131, 131);
+    width: 1200px;
+    margin: auto;
 }
 .child-con2{
     color: rgb(59, 146, 146);
@@ -234,6 +240,8 @@ footer img{
     display: flex;
     justify-content: space-between;
     position: relative;
+    width: 1200px;
+    margin: auto;
 }
 .button-top{
     position: absolute;
@@ -249,6 +257,8 @@ footer img{
     background-color: rgb(241, 238, 238);
     margin-top: 25px;
     border-top: 5px solid rgb(30, 131, 131);
+    border-bottom: 5px solid rgb(30, 131, 131);
+    height: 460px;
 }
 .div2 h2{
     text-align: center;
