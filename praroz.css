@@ -15,6 +15,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    position: sticky;
 }
 .navigation a{
     margin: 20px;
@@ -128,7 +129,7 @@ span{
     font-size: 20px;
     margin-left: 40px;
     padding: 7px;
-    border-bottom: 0.5px solid rgb(248, 191, 85);
+    border-bottom: 1px solid #ff7200;
     width: 220px;
     margin-top: 20px;
     text-align: left;
