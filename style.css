@@ -96,6 +96,7 @@ footer img{
     padding: 8px;
     border-radius: 10px;
     border: none;
+    outline: none;
 }
 .email:focus{
     background-color: orange;
@@ -109,6 +110,7 @@ footer img{
     padding: 8px;
     border-radius: 10px;
     border: none;
+    outline: none;
 }
 .password:focus{
     background-color: orange;
